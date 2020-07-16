@@ -1,0 +1,21 @@
+{
+	"folders": [
+		{
+			"name": "Udemy_Escape_C",
+			"path": "."
+		},
+		{
+			"name": "UE4",
+			"path": "J:\\games\\UE_4.25"
+		}
+	],
+	"settings": {
+		"typescript.tsc.autoDetect": "off"
+	},
+	"extensions": {
+		"recommendations": [
+			"ms-vscode.cpptools",
+			"ms-dotnettools.csharp"
+		]
+	}
+}
