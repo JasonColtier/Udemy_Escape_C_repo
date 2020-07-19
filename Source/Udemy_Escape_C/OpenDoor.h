@@ -24,5 +24,15 @@ public:
 	// Called every frame
 	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
 
-		
+private:
+
+float initialYaw;
+float targetYaw;
+
+UPROPERTY(EditAnywhere)
+float openAngle = 90.f;
+
+UPROPERTY(EditAnywhere)
+float speed = 0.1f;
+
 };
